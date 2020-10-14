@@ -12,7 +12,7 @@
              crossorigin="anonymous">
 
   <!--CSS Link-->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="WebVisualizations\style.css">
     </head>
 
 
@@ -35,7 +35,7 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                     <a class="dropdown-item" href="humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="WebVisualizations\Cloudiness.html">Cloudiness</a>
                     <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                   </div>
                 </li>
@@ -51,9 +51,11 @@
           </nav>
         </div>
 
+        <div class="table-responsive" style="overflow-x:auto; overflow-y:auto;  max-width: auto;">
 
+          <table class="table table-striped">
 
-
+<div class="table interactive"
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -7184,6 +7186,7 @@
     </tr>
   </tbody>
 </table>
+</div>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
